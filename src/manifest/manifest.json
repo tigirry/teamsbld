@@ -1,0 +1,47 @@
+{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v0.4/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "0.4",
+  "id": "23d921a2-33cc-68be-09d7-d38e5a4c3e37",
+  "version": "0.0.1",
+  "developer": {
+    "name": "hgk",
+    "websiteUrl": "https://tEamsbld.azurewebsites.net",
+    "privacyUrl": "https://tEamsbld.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://tEamsbld.azurewebsites.net/tou.html"
+  },
+  "tabs": [
+    {
+      "id": "79d5d7b1-77cd-bd49-465f-7e5855ec6999",
+      "name": "Teamsbld Tab",
+      "description": {
+        "short": "Add a short description for Teamsbld Tab here",
+        "full": "Add a longer description for Teamsbld Tab here"
+      },
+      "icons": {
+        "44": "https://tEamsbld.azurewebsites.net/assets/tab-44.png",
+        "88": "https://tEamsbld.azurewebsites.net/assets/tab-88.png"
+      },
+      "accentColor": "#223344",
+      "configUrl": "https://tEamsbld.azurewebsites.net/teamsbldTabConfig.html",
+      "canUpdateConfig": true
+    }
+  ],
+  "bots": [
+    {
+      "mri": "4514f7ed-0fc7-49ba-8fa7-e844e49054e3",
+      "pinnedTabs": [
+        {
+          "id": "cb92d0cd-f9ba-e61f-a2be-3d2fd5648d4b",
+          "definitionId": "92283575-75b9-93c0-4206-58f9321e911c",
+          "displayName": "Teamsbld Bot Tab",
+          "url": "https://tEamsbld.azurewebsites.net/teamsbldBotTabTab.html",
+          "website": "https://tEamsbld.azurewebsites.net/teamsbldBotTabTab.html"
+        }
+      ]
+    }
+  ],
+  "needsIdentity": false,
+  "validDomains": [
+    "tEamsbld.azurewebsites.net"
+  ]
+}
